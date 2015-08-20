@@ -8,16 +8,23 @@
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-image/v0.0.4/leaflet-image.js'></script>
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
 </head>
 <body>
 <style>
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
 #rose {
   position: absolute;
   top: 5px;
+  right: 5px;
+}
+.map-legends {
+  margin-bottom: 100px !important;
+  border: 1px solid #bbb;
+}
+.leaflet-control-scale {
+  position: absolute;
+  bottom: 5px;
   right: 5px;
 }
 .legend ul {
@@ -98,13 +105,13 @@
   var map = L.mapbox.map('map', 'kwilcox.n7ilade3');
   var hash = L.hash(map);
 
+  // Add legend
+  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+
   // Add scale
   L.control.scale({
     position: 'bottomright'
   }).addTo(map);
-
-  // Add legend
-  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 
   document.getElementById('snap').addEventListener('click', function() {
     document.getElementById('download').disabled = true;
