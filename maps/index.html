@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>SECOORA Assets</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-image/v0.0.4/leaflet-image.js'></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<style>
+.legend ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+.legend ul li {
+    display: block;
+    margin-bottom: 6px;
+    text-align: left;
+    font-size: 80%;
+    list-style: none;
+    }
+.legend ul li span {
+    margin-right: 6px;
+    display: block;
+    float: left;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #bbb;
+    }
+.legend ul li img {
+    margin-right: 6px;
+    display: block;
+    float: left;
+    height: 15px;
+    width: 15px;
+    }
+.snap-button {
+  position:absolute;
+  top:10px;
+  right:10px;
+  z-index:1000;
+  }
+.down-button {
+  position:absolute;
+  top:40px;
+  right:10px;
+  z-index:1000;
+  }
+</style>
+
+<!-- Set the display of this container to none so we can
+     add it programmatically to `legendControl` -->
+<div id='legend' style='display:none;'>
+  <strong>Status</strong>
+  <div class='legend'>
+    <ul>
+      <li><span style='background:#6bce70;'></span><label>Operational</label></li>
+      <li><span style='background:#fdf341;'></span><label>Permitting/Construction</label></li>
+      <li><span style='background:#fc7b42;'></span><label>Planned</label></li>
+    </ul>
+  </div>
+  <strong>Type</strong>
+  <div class='legend'>
+    <ul>
+      <li><img src="http://hi.com/buoy-yellow.png"><label>Fixed Surface Buoy</label></li>
+      <li><img src="./img/shore_station-yellow.png"><label>Fixed Coastal Station</label></li>
+      <li><img src="./img/fixed.svg"><label>Fixed Bottom Station</label></li>
+      <li><img src="./img/tri-yellow.png"><label>Fixed Bottom Mount Mooring</label></li>
+    </ul>
+  </div>
+</div>
+
+<button id='snap' class='snap-button'>Snapshot</button>
+<button id='download' class='down-button' disabled>Download</button>
+<div id='map' class='dark'></div>
+
+<script>
+  L.mapbox.accessToken = 'pk.eyJ1Ijoia3dpbGNveCIsImEiOiJmN2FmYWFhZTAzMWM4ZmI4Y2U0N2NhZjU5MDk3MmQxNyJ9.E8aJiVUNtkm3asS5DCOYJQ';
+
+  var map = L.mapbox.map('map', 'kwilcox.n7ilade3');
+  var hash = L.hash(map);
+
+  // Add scale
+  L.control.scale({
+    position: 'bottomright'
+  }).addTo(map);
+
+  // Add legend
+  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+
+  document.getElementById('snap').addEventListener('click', function() {
+    document.getElementById('download').disabled = true;
+    leafletImage(map, doImage);
+  });
+
+  function doImage(err, canvas) {
+    document.getElementById('download').addEventListener('click', function() {
+      window.open(canvas.toDataURL());
+    });
+    document.getElementById('download').disabled = false;
+  }
+</script>
+</body>
+</html>

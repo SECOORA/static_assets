@@ -1,0 +1,18 @@
+ResponsibleParty,Type,DisplayTitle,Latitude,Longitude,MHz,Status,StartAngle,SpreadAngle
+University of North Carolina,CODAR,Duck,36.18,-75.75,5,Operational,5,-120
+University of North Carolina,CODAR,Cape Hatteras,35.26,-75.52,5,Operational,60,-170
+University of South Carolina,WERA,Georgetown,33.25,-79.15,8.3,Operational,20,-120
+University of South Carolina,WERA,Caswell Beach,33.88,-78.11,8.3,Operational,-15,-120
+Skidaway Institute of Oceanography,WERA,St. Catherine,31.69,-81.13,8.3,Operational,20,-120
+Skidaway Institute of Oceanography,WERA,Jekyll Island,31.06,-81.41,8.3,Operational,55,-120
+University of Miami,WERA,Dania Beach,26.08,-80.12,12.6,Operational,55,-120
+University of Miami,WERA,Virginia Key,25.74,-80.15,12.6,Operational,68,-120
+University of Miami,WERA,Crandon Park,25.71,-80.15,16,Operational,31,-120
+University of Miami,WERA,Broad Key,25.35,-80.25,16,Permitting,,
+University of South Florida,CODAR,Redington Shores,27.83,-82.83,5,Operational,-70,-120
+University of South Florida,CODAR,Venice,27.08,-82.45,5,Operational,-100,-120
+University of South Florida,CODAR,Naples,26.16,-81.81,5,Operational,-120,-120
+University of South Florida,CODAR,Fort deSoto,27.58,-82.73,5,Permitting,,
+University of North Carolina - Chapel Hill,CODAR,Core Banks,34.76,-76.41,5,Operational,50,-120
+University of Miami/FIT,WERA,Port Canaveral,28.5,-80.53,8.3,Planned,,
+University of Miami/FIT,WERA,Vero Beach,27.5,-80.35,8.3,Planned,,
