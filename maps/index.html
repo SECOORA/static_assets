@@ -13,10 +13,11 @@
 <style>
 body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0; width:100%; }
-#rose {
+.rose {
   position: absolute;
   top: 5px;
   right: 5px;
+  z-index:1000;
 }
 .map-legends {
   margin-bottom: 100px !important;
@@ -91,7 +92,7 @@ body { margin:0; padding:0; }
   </div>
 </div>
 
-<div id='rose'>
+<div class='rose'>
   <img src="https://raw.githubusercontent.com/SECOORA/static_assets/master/maps/img/rose.png">
 </div>
 
@@ -102,7 +103,7 @@ body { margin:0; padding:0; }
 <script>
   L.mapbox.accessToken = 'pk.eyJ1Ijoia3dpbGNveCIsImEiOiI1OTc4NWI4MTZhYTU5YjQzYzc2NDJiMTE5M2Y3MzMzMyJ9.TC1P6CJcFchG2GNAQtv0BQ';
 
-  var map = L.mapbox.map('map', 'kwilcox.n7ilade3');
+  var map = L.mapbox.map('map', 'kwilcox.854f2d6d');
   var hash = L.hash(map);
 
   // Add legend
