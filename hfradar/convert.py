@@ -46,8 +46,8 @@ url = ("https://raw.githubusercontent.com/secoora/"
        "static_assets/master/icons/")
 icon = (url + "hfradar-{status}.png").format
 
-# The values are from a GMT script @vembus provided to @ocepaf and @kwilcox
-# The comments values were provided to @vembus to @kwilcox seperatly
+# The values are from a GMT script @vembus provided to @ocefpaf and @kwilcox
+# The comments values were provided to @vembus to @kwilcox separately.
 ranges = {
     5: 190,   # 225
     8: 160,   # 175
@@ -126,16 +126,18 @@ def save_geojson(df):
         angle = s['StartAngle']
         theta = s['SpreadAngle']
 
+        x = s.fillna(0).copy()
+        feature = geojson.Feature(
+            geometry=geojson.Point([lon, lat]),
+            properties={ k.lower(): v for (k, v) in x.items() }
+        )
+
+        features.append(feature)
+
         if not pd.isnull(angle) and not pd.isnull(theta):
             x = s.fillna(0).copy()
             feature = geojson.Feature(
                 geometry=wedge(dis, angle, theta, lat, lon),
-                properties={ k.lower(): v for (k, v) in x.items() }
-            )
-        else:
-            x = s.fillna(0).copy()
-            feature = geojson.Feature(
-                geometry=geojson.Point([lon, lat]),
                 properties={ k.lower(): v for (k, v) in x.items() }
             )
 
@@ -157,7 +159,7 @@ def save_shapefile(df):
             if x == object:
                 props[df.columns[i][:10].lower()] = 'str'
             elif x in [np.int32, np.int64]:
-                props[df.columns[i][:10].lower()] = 'int'                
+                props[df.columns[i][:10].lower()] = 'int'
             elif x in [np.float32, np.float64]:
                 props[df.columns[i][:10].lower()] = 'float'
             else:
