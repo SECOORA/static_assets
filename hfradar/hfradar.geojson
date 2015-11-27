@@ -3,6 +3,32 @@
     {
       "geometry": {
         "coordinates": [
+          -75.75,
+          36.18
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "DUCK",
+        "displaytitle": "Duck",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 36.18,
+        "longitude": -75.75,
+        "mhz": 5.0,
+        "popupcontent": "Duck (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of North Carolina",
+        "spreadangle": -120.0,
+        "startangle": 5.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -75.75,
@@ -236,6 +262,32 @@
         "responsibleparty": "University of North Carolina",
         "spreadangle": -120.0,
         "startangle": 5.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -75.52,
+          35.26
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HATY",
+        "displaytitle": "Cape Hatteras",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 35.26,
+        "longitude": -75.52,
+        "mhz": 5.0,
+        "popupcontent": "Cape Hatteras (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of North Carolina",
+        "spreadangle": -170.0,
+        "startangle": 60.0,
         "status": "Operational",
         "status_color": "green",
         "type": "CODAR"
@@ -487,6 +539,32 @@
     {
       "geometry": {
         "coordinates": [
+          -79.15,
+          33.25
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "GTN",
+        "displaytitle": "Georgetown",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 33.25,
+        "longitude": -79.15,
+        "mhz": 8.3,
+        "popupcontent": "Georgetown (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of South Carolina",
+        "spreadangle": -120.0,
+        "startangle": 20.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -79.15,
@@ -720,6 +798,32 @@
         "responsibleparty": "University of South Carolina",
         "spreadangle": -120.0,
         "startangle": 20.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.11,
+          33.88
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "CSW",
+        "displaytitle": "Caswell Beach",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 33.88,
+        "longitude": -78.11,
+        "mhz": 8.3,
+        "popupcontent": "Caswell Beach (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of South Carolina",
+        "spreadangle": -120.0,
+        "startangle": -15.0,
         "status": "Operational",
         "status_color": "green",
         "type": "WERA"
@@ -971,6 +1075,32 @@
     {
       "geometry": {
         "coordinates": [
+          -81.13,
+          31.69
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "CAT",
+        "displaytitle": "St. Catherine",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 31.69,
+        "longitude": -81.13,
+        "mhz": 8.3,
+        "popupcontent": "St. Catherine (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "Skidaway Institute of Oceanography",
+        "spreadangle": -120.0,
+        "startangle": 20.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -81.13,
@@ -1213,6 +1343,32 @@
     {
       "geometry": {
         "coordinates": [
+          -81.41,
+          31.06
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "JEK",
+        "displaytitle": "Jekyll Island",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 31.06,
+        "longitude": -81.41,
+        "mhz": 8.3,
+        "popupcontent": "Jekyll Island (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "Skidaway Institute of Oceanography",
+        "spreadangle": -120.0,
+        "startangle": 55.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -81.41,
@@ -1444,6 +1600,32 @@
         "popupcontent": "Jekyll Island (8.3 MHz)",
         "range": 160000,
         "responsibleparty": "Skidaway Institute of Oceanography",
+        "spreadangle": -120.0,
+        "startangle": 55.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.12,
+          26.08
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "STF",
+        "displaytitle": "Dania Beach",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 26.08,
+        "longitude": -80.12,
+        "mhz": 12.6,
+        "popupcontent": "Dania Beach (12.6 MHz)",
+        "range": 130000,
+        "responsibleparty": "University of Miami",
         "spreadangle": -120.0,
         "startangle": 55.0,
         "status": "Operational",
@@ -1697,6 +1879,32 @@
     {
       "geometry": {
         "coordinates": [
+          -80.15,
+          25.74
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "VIR",
+        "displaytitle": "Virginia Key",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 25.74,
+        "longitude": -80.15,
+        "mhz": 12.6,
+        "popupcontent": "Virginia Key (12.6 MHz)",
+        "range": 130000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": -120.0,
+        "startangle": 68.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -80.15,
@@ -1930,6 +2138,32 @@
         "responsibleparty": "University of Miami",
         "spreadangle": -120.0,
         "startangle": 68.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.15,
+          25.71
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "CDN",
+        "displaytitle": "Crandon Park",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 25.71,
+        "longitude": -80.15,
+        "mhz": 16.0,
+        "popupcontent": "Crandon Park (16.0 MHz)",
+        "range": 100000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": -120.0,
+        "startangle": 31.0,
         "status": "Operational",
         "status_color": "green",
         "type": "WERA"
@@ -2207,6 +2441,58 @@
     {
       "geometry": {
         "coordinates": [
+          -80.25,
+          25.35
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "BDK",
+        "displaytitle": "Broad Key",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-yellow.png",
+        "latitude": 25.35,
+        "longitude": -80.25,
+        "mhz": 16.0,
+        "popupcontent": "Broad Key (16.0 MHz)",
+        "range": 100000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Permitting",
+        "status_color": "yellow",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -82.83,
+          27.83
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "RDSR",
+        "displaytitle": "Redington Shores",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 27.83,
+        "longitude": -82.83,
+        "mhz": 5.0,
+        "popupcontent": "Redington Shores (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of South Florida",
+        "spreadangle": -120.0,
+        "startangle": -70.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -82.83,
@@ -2449,6 +2735,32 @@
     {
       "geometry": {
         "coordinates": [
+          -82.45,
+          27.08
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "VENI",
+        "displaytitle": "Venice",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 27.08,
+        "longitude": -82.45,
+        "mhz": 5.0,
+        "popupcontent": "Venice (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of South Florida",
+        "spreadangle": -120.0,
+        "startangle": -100.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -82.45,
@@ -2682,6 +2994,32 @@
         "responsibleparty": "University of South Florida",
         "spreadangle": -120.0,
         "startangle": -100.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.81,
+          26.16
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "NAPL",
+        "displaytitle": "Naples",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 26.16,
+        "longitude": -81.81,
+        "mhz": 5.0,
+        "popupcontent": "Naples (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of South Florida",
+        "spreadangle": -120.0,
+        "startangle": -120.0,
         "status": "Operational",
         "status_color": "green",
         "type": "CODAR"
@@ -2959,6 +3297,58 @@
     {
       "geometry": {
         "coordinates": [
+          -82.73,
+          27.58
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "FDS",
+        "displaytitle": "Fort deSoto",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-yellow.png",
+        "latitude": 27.58,
+        "longitude": -82.73,
+        "mhz": 5.0,
+        "popupcontent": "Fort deSoto (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of South Florida",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Permitting",
+        "status_color": "yellow",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -76.41,
+          34.76
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "CORE",
+        "displaytitle": "Core Banks",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-green.png",
+        "latitude": 34.76,
+        "longitude": -76.41,
+        "mhz": 5.0,
+        "popupcontent": "Core Banks (5.0 MHz)",
+        "range": 190000,
+        "responsibleparty": "University of North Carolina - Chapel Hill",
+        "spreadangle": -120.0,
+        "startangle": 50.0,
+        "status": "Operational",
+        "status_color": "green",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
               -76.41,
@@ -3214,6 +3604,58 @@
         "longitude": -80.53,
         "mhz": 8.3,
         "popupcontent": "Port Canaveral (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of Miami/FIT",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Planned",
+        "status_color": "orange",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.53,
+          28.5
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "PCL",
+        "displaytitle": "Port Canaveral",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
+        "latitude": 28.5,
+        "longitude": -80.53,
+        "mhz": 8.3,
+        "popupcontent": "Port Canaveral (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of Miami/FIT",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Planned",
+        "status_color": "orange",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.35,
+          27.5
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "VBC",
+        "displaytitle": "Vero Beach",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
+        "latitude": 27.5,
+        "longitude": -80.35,
+        "mhz": 8.3,
+        "popupcontent": "Vero Beach (8.3 MHz)",
         "range": 160000,
         "responsibleparty": "University of Miami/FIT",
         "spreadangle": 0,

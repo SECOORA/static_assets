@@ -65,7 +65,7 @@ def main():
         lambda x: icon(platform=x['platform_icon'], status=x['status_color']),
         axis=1
     )
-    
+
     save_geojson(df)
     save_shapefile(df)
 
@@ -95,7 +95,7 @@ def save_shapefile(df):
             if x == object:
                 props[shape_name(df.columns[i])] = 'str'
             elif x in [np.int32, np.int64]:
-                props[df.columns[i][:10].lower()] = 'int'                   
+                props[df.columns[i][:10].lower()] = 'int'
             elif x in [np.float32, np.float64]:
                 props[shape_name(df.columns[i])] = 'float'
             else:
