@@ -1,0 +1,11 @@
+name: assets_map
+channels:
+    - ioos
+dependencies:
+    - python=2.7
+    - fiona
+    - folium
+    - gdal
+    - geojson
+    - pandas
+    - jupyter
