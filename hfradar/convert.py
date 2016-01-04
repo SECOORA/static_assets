@@ -4,7 +4,6 @@
 # conda execute
 # env:
 #  - fiona
-#  - gdal <2.0.0
 #  - geojson
 #  - pandas
 #  - pygc
@@ -129,7 +128,7 @@ def save_geojson(df):
         x = s.fillna(0).copy()
         feature = geojson.Feature(
             geometry=geojson.Point([lon, lat]),
-            properties={ k.lower(): v for (k, v) in x.items() }
+            properties={ k.lower(): v for (k, v) in x.iteritems() }
         )
 
         features.append(feature)
@@ -138,7 +137,7 @@ def save_geojson(df):
             x = s.fillna(0).copy()
             feature = geojson.Feature(
                 geometry=wedge(dis, angle, theta, lat, lon),
-                properties={ k.lower(): v for (k, v) in x.items() }
+                properties={ k.lower(): v for (k, v) in x.iteritems() }
             )
 
         features.append(feature)
@@ -184,13 +183,13 @@ def save_shapefile(df):
                 x = s.fillna(0).copy()
                 f.write({
                     "geometry": wedge(dis, angle, theta, lat, lon),
-                    "properties": { shape_name(k): v for (k, v) in x.items() if shape_name(k) in schema['properties'] }
+                    "properties": { shape_name(k): v for (k, v) in x.iteritems() if shape_name(k) in schema['properties'] }
                 })
             else:
                 x = s.fillna(0).copy()
                 f.write({
                     "geometry": geojson.Polygon([[[lon, lat]] * 4 ]),
-                    "properties": { shape_name(k): v for (k, v) in x.items() if shape_name(k) in schema['properties'] }
+                    "properties": { shape_name(k): v for (k, v) in x.iteritems() if shape_name(k) in schema['properties'] }
                 })
 
 if __name__ == "__main__":

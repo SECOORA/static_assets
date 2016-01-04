@@ -4,7 +4,6 @@
 # conda execute
 # env:
 #  - fiona
-#  - gdal <2.0.0
 #  - geojson
 #  - pandas
 # channels:
@@ -76,7 +75,7 @@ def save_geojson(df):
         features.append(geojson.Feature(
             geometry=geojson.Point([s["Longitude"],
                                     s["Latitude"]]),
-            properties={ k.lower(): v for (k, v) in s.items() }
+            properties={ k.lower(): v for (k, v) in s.iteritems() }
         ))
 
     fc = geojson.FeatureCollection(features)
@@ -111,7 +110,7 @@ def save_shapefile(df):
         for r, s in df.iterrows():
             f.write({
                 "geometry": geojson.Point([s["Longitude"], s["Latitude"]]),
-                "properties": { shape_name(k): v for (k, v) in s.items() if shape_name(k) in schema['properties'] }
+                "properties": { shape_name(k): v for (k, v) in s.iteritems() if shape_name(k) in schema['properties'] }
             })
 
 if __name__ == "__main__":
