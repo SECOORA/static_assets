@@ -32,39 +32,19 @@ logger = logging.getLogger()
 logger.addHandler(logging.StreamHandler())
 logger.setLevel(logging.WARNING)
 
-status_colors = {
-    'Planned':      'orange',
-    'Operational':  'green',
-    'Permitting':   'yellow',
-    'Construction': 'yellow',
-    'Decommissioned': 'red'
-}
-
-platforms_icons = {
-    'Fixed Surface Buoy':         'buoy',
-    'Fixed Bottom Station':       'circ',
-    'Fixed Bottom Mount Mooring': 'tri',
-    'Fixed Coastal Station':      'shore_station',
-}
-
-url = ("https://raw.githubusercontent.com/secoora/"
-       "static_assets/master/icons/")
-icon = (url + "{platform}-{status}.png").format
+icon = ('https://raw.githubusercontent.com/'
+       'SECOORA/static_assets/master/icons/slocum-default.png')
 
 
 def main():
 
-    csv_file = 'https://docs.google.com/spreadsheets/d/1ECXoa43uq9Gr8REZF-7EGlxNa1mkP7-4YturX0nFK7s/pub?output=csv'
+    csv_file = 'https://docs.google.com/spreadsheets/d/13e906UHl6ibF2lx1F_mu_9vBVptVkESM7alw5-FRJdI/pub?output=csv'
     df = pd.read_csv(csv_file)
 
-    # Add computed columns
-    df['status_color'] = df['Status'].map(lambda x: status_colors[x])
-    df['platform_icon'] = df['PlatformType'].map(lambda x: platforms_icons[x])
-    df['popupContent'] = df['LocationDescription']
-    df['icon'] = df.apply(
-        lambda x: icon(platform=x['platform_icon'], status=x['status_color']),
-        axis=1
-    )
+    # Add computed columns.
+    df['popupContent'] = ['{} ({})'.format(site, number) for site, number in
+                          df[['Responsible Party', 'Number of gliders']].values]
+    df['icon'] = [icon] * len(df)
 
     save_geojson(df)
     save_shapefile(df)
@@ -80,7 +60,7 @@ def save_geojson(df):
         ))
 
     fc = geojson.FeatureCollection(features)
-    with open('stations.geojson', 'w') as f:
+    with open('gliders.geojson', 'w') as f:
         geojson.dump(fc, f, sort_keys=True, indent=2, separators=(",", ": "))
 
 
@@ -107,7 +87,7 @@ def save_shapefile(df):
         'properties': columns_to_properties(df)
     }
 
-    with fiona.open('stations.shp', "w", "ESRI Shapefile", schema) as f:
+    with fiona.open('gliders.shp', "w", "ESRI Shapefile", schema) as f:
         for r, s in df.iterrows():
             f.write({
                 "geometry": geojson.Point([s["Longitude"], s["Latitude"]]),
