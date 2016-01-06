@@ -36,7 +36,8 @@ status_colors = {
     'Planned':      'orange',
     'Operational':  'green',
     'Permitting':   'yellow',
-    'Construction': 'yellow'
+    'Construction': 'yellow',
+    'Decommissioned': 'red'
 }
 
 platforms_icons = {
