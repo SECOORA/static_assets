@@ -1,0 +1,176 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -82.63265059999999,
+          27.7607018
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 27.7607018,
+        "longitude": -82.63265059999999,
+        "number of gliders": "Five Gliders",
+        "platformtype": "AUV",
+        "popupcontent": "University of South Florida (Five Gliders)",
+        "responsible party": "University of South Florida"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -82.5797403,
+          27.3330744
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 27.3330744,
+        "longitude": -82.5797403,
+        "number of gliders": "Two Gliders",
+        "platformtype": "AUV",
+        "popupcontent": "Mote Marine Laboratory (Two Gliders)",
+        "responsible party": "Mote Marine Laboratory"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -94.8183191,
+          29.3155141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 29.3155141,
+        "longitude": -94.8183191,
+        "number of gliders": "Five Gliders",
+        "platformtype": "AUV",
+        "popupcontent": "Texas A&M (Five Gliders)",
+        "responsible party": "Texas A&M"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -89.6139121,
+          30.375355900000002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 30.375355900000002,
+        "longitude": -89.6139121,
+        "number of gliders": "One Glider",
+        "platformtype": "AUV",
+        "popupcontent": "University of Southern Mississippi (One Glider)",
+        "responsible party": "University of Southern Mississippi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.68,
+          35.784
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 35.784,
+        "longitude": -78.68,
+        "number of gliders": "Two Gliders",
+        "platformtype": "AUV",
+        "popupcontent": "North Carolina State University (Two Gliders)",
+        "responsible party": "North Carolina State University"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -79.04,
+          35.9
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 35.9,
+        "longitude": -79.04,
+        "number of gliders": "One Glider",
+        "platformtype": "AUV",
+        "popupcontent": "University of North Carolina at Chapel Hill (One Glider)",
+        "responsible party": "University of North Carolina at Chapel Hill"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -81.021,
+          31.988000000000003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 31.988000000000003,
+        "longitude": -81.021,
+        "number of gliders": "Two Gliders",
+        "platformtype": "AUV",
+        "popupcontent": "Skidaway Institute of Oceanography (Two Gliders)",
+        "responsible party": "Skidaway Institute of Oceanography"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.38600000000001,
+          27.531999999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 27.531999999999996,
+        "longitude": -80.38600000000001,
+        "number of gliders": "Three Gliders",
+        "platformtype": "AUV",
+        "popupcontent": "Florida Atlantic University - Harbor Branch (Three Gliders)",
+        "responsible party": "Florida Atlantic University - Harbor Branch"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.6231,
+          28.065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "icon": "https://raw.githubusercontent.com/SECOORA/static_assets/master/icons/slocum-default.png",
+        "latitude": 28.065,
+        "longitude": -80.6231,
+        "number of gliders": "One Glider",
+        "platformtype": "AUV",
+        "popupcontent": "Florida Institute of Technology (One Glider)",
+        "responsible party": "Florida Institute of Technology"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
