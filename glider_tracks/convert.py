@@ -40,5 +40,15 @@ def main():
         f.write(json.dumps(fc, sort_keys=True,
                            indent=2, separators=(",", ": ")))
 
+    features = []
+    with fiona.open('gliders_from_georefd.shp') as shp:
+        for k, item in shp.items():
+            features.append(item)
+
+    fc = {'features': features, 'type': 'FeatureCollection'}
+    with open('gliders_from_georefd.geojson', 'w') as f:
+        f.write(json.dumps(fc, sort_keys=True,
+                           indent=2, separators=(",", ": ")))
+
 if __name__ == "__main__":
     main()
