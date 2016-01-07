@@ -6,6 +6,7 @@ dependencies:
     - fiona
     - folium
     - geojson
+    - gridgeo
     - jupyter
     - pandas
     - pygc
