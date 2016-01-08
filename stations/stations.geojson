@@ -603,21 +603,21 @@
     {
       "geometry": {
         "coordinates": [
-          -82.71,
-          24.623
+          -83.71,
+          25.000999999999998
         ],
         "type": "Point"
       },
       "properties": {
-        "displaytitle": "Florida Keys",
+        "displaytitle": "C18",
         "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/circ-red.png",
-        "latitude": 24.623,
-        "locationdescription": "Florida Keys",
-        "longitude": -82.71,
-        "name": "USF CMS C19 Bottom Mount",
+        "latitude": 25.000999999999998,
+        "locationdescription": "FL 82 m Depth",
+        "longitude": -83.71,
+        "name": "USF CMS C18 Bottom Mount",
         "platform_icon": "circ",
         "platformtype": "Fixed Bottom Station",
-        "popupcontent": "Florida Keys",
+        "popupcontent": "FL 82 m Depth",
         "responsibleparty": "USF-CMS",
         "status": "Decommissioned",
         "status_color": "red"
