@@ -623,6 +623,30 @@
         "status_color": "red"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.275,
+          27.34
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "displaytitle": "42099",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/buoy-green.png",
+        "latitude": 27.34,
+        "locationdescription": "NDBC Buoy at 96 m",
+        "longitude": -84.275,
+        "name": "Offshore of St. Petersburg",
+        "platform_icon": "buoy",
+        "platformtype": "Fixed Surface Buoy",
+        "popupcontent": "NDBC Buoy at 96 m",
+        "responsibleparty": "NDBC",
+        "status": "Operational",
+        "status_color": "green"
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"

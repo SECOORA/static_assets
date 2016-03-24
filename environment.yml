@@ -10,3 +10,4 @@ dependencies:
     - jupyter
     - pandas
     - pygc
+    - iris

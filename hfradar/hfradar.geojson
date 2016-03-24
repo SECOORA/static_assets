@@ -3605,7 +3605,7 @@
         "mhz": 8.3,
         "popupcontent": "Port Canaveral (8.3 MHz)",
         "range": 160000,
-        "responsibleparty": "University of Miami/FIT",
+        "responsibleparty": "Florida Institute of Technology",
         "spreadangle": 0,
         "startangle": 0,
         "status": "Planned",
@@ -3631,7 +3631,7 @@
         "mhz": 8.3,
         "popupcontent": "Port Canaveral (8.3 MHz)",
         "range": 160000,
-        "responsibleparty": "University of Miami/FIT",
+        "responsibleparty": "Florida Institute of Technology",
         "spreadangle": 0,
         "startangle": 0,
         "status": "Planned",
@@ -3643,21 +3643,21 @@
     {
       "geometry": {
         "coordinates": [
-          -80.35,
-          27.5
+          -80.63,
+          28.12
         ],
         "type": "Point"
       },
       "properties": {
-        "abrreviated id": "VBC",
-        "displaytitle": "Vero Beach",
+        "abrreviated id": "MEL",
+        "displaytitle": "Melbourne",
         "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
-        "latitude": 27.5,
-        "longitude": -80.35,
+        "latitude": 28.12,
+        "longitude": -80.63,
         "mhz": 8.3,
-        "popupcontent": "Vero Beach (8.3 MHz)",
+        "popupcontent": "Melbourne (8.3 MHz)",
         "range": 160000,
-        "responsibleparty": "University of Miami/FIT",
+        "responsibleparty": "Florida Institute of Technology",
         "spreadangle": 0,
         "startangle": 0,
         "status": "Planned",
@@ -3669,26 +3669,234 @@
     {
       "geometry": {
         "coordinates": [
-          -80.35,
-          27.5
+          -80.63,
+          28.12
         ],
         "type": "Point"
       },
       "properties": {
-        "abrreviated id": "VBC",
-        "displaytitle": "Vero Beach",
+        "abrreviated id": "MEL",
+        "displaytitle": "Melbourne",
         "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
-        "latitude": 27.5,
-        "longitude": -80.35,
+        "latitude": 28.12,
+        "longitude": -80.63,
         "mhz": 8.3,
-        "popupcontent": "Vero Beach (8.3 MHz)",
+        "popupcontent": "Melbourne (8.3 MHz)",
         "range": 160000,
-        "responsibleparty": "University of Miami/FIT",
+        "responsibleparty": "Florida Institute of Technology",
         "spreadangle": 0,
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
         "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.14,
+          27.08
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HOBE",
+        "displaytitle": "Hobe Sound, FL",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
+        "latitude": 27.08,
+        "longitude": -80.14,
+        "mhz": 8.3,
+        "popupcontent": "Hobe Sound, FL (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Planned",
+        "status_color": "orange",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.14,
+          27.08
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HOBE",
+        "displaytitle": "Hobe Sound, FL",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
+        "latitude": 27.08,
+        "longitude": -80.14,
+        "mhz": 8.3,
+        "popupcontent": "Hobe Sound, FL (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Planned",
+        "status_color": "orange",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.02,
+          26.65
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "PALM",
+        "displaytitle": "Palm Beach",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
+        "latitude": 26.65,
+        "longitude": -80.02,
+        "mhz": 8.3,
+        "popupcontent": "Palm Beach (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Planned",
+        "status_color": "orange",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.02,
+          26.65
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "PALM",
+        "displaytitle": "Palm Beach",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-orange.png",
+        "latitude": 26.65,
+        "longitude": -80.02,
+        "mhz": 8.3,
+        "popupcontent": "Palm Beach (8.3 MHz)",
+        "range": 160000,
+        "responsibleparty": "University of Miami",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Planned",
+        "status_color": "orange",
+        "type": "WERA"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.1,
+          25.91
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HAUL",
+        "displaytitle": "Haulover Beach, FL",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-yellow.png",
+        "latitude": 25.91,
+        "longitude": -80.1,
+        "mhz": 13.4,
+        "popupcontent": "Haulover Beach, FL (13.4 MHz)",
+        "range": 0,
+        "responsibleparty": "Florida Atlantic University",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Construction",
+        "status_color": "yellow",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.1,
+          25.91
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HAUL",
+        "displaytitle": "Haulover Beach, FL",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-yellow.png",
+        "latitude": 25.91,
+        "longitude": -80.1,
+        "mhz": 13.4,
+        "popupcontent": "Haulover Beach, FL (13.4 MHz)",
+        "range": 0,
+        "responsibleparty": "Florida Atlantic University",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Construction",
+        "status_color": "yellow",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.08,
+          26.26
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HILL",
+        "displaytitle": "Hillsboroug River, FL",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-yellow.png",
+        "latitude": 26.26,
+        "longitude": -80.08,
+        "mhz": 13.4,
+        "popupcontent": "Hillsboroug River, FL (13.4 MHz)",
+        "range": 0,
+        "responsibleparty": "Florida Atlantic University",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Construction",
+        "status_color": "yellow",
+        "type": "CODAR"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -80.08,
+          26.26
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "abrreviated id": "HILL",
+        "displaytitle": "Hillsboroug River, FL",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/hfradar-yellow.png",
+        "latitude": 26.26,
+        "longitude": -80.08,
+        "mhz": 13.4,
+        "popupcontent": "Hillsboroug River, FL (13.4 MHz)",
+        "range": 0,
+        "responsibleparty": "Florida Atlantic University",
+        "spreadangle": 0,
+        "startangle": 0,
+        "status": "Construction",
+        "status_color": "yellow",
+        "type": "CODAR"
       },
       "type": "Feature"
     }
