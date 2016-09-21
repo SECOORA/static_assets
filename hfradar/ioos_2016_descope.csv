@@ -1,0 +1,22 @@
+ResponsibleParty,Type,DisplayTitle,Abrreviated ID,Latitude,Longitude,MHz,Status,StartAngle,SpreadAngle
+University of North Carolina,CODAR,Duck,DUCK,36.18,-75.75,5,Operational,5,-120
+University of North Carolina,CODAR,Cape Hatteras,HATY,35.26,-75.52,5,Operational,60,-170
+University of South Carolina,WERA,Georgetown,GTN,33.25,-79.15,8.3,Operational,20,-120
+University of South Carolina,WERA,Caswell Beach,CSW,33.88,-78.11,8.3,Operational,-15,-120
+Skidaway Institute of Oceanography,WERA,St. Catherine,CAT,31.69,-81.13,8.3,Operational,20,-120
+Skidaway Institute of Oceanography,WERA,Jekyll Island,JEK,31.06,-81.41,8.3,Operational,55,-120
+University of Miami,WERA,Dania Beach,STF,26.08,-80.12,12.6,Operational,55,-120
+University of Miami,WERA,Virginia Key,VIR,25.74,-80.15,12.6,Operational,68,-120
+University of Miami,WERA,Crandon Park,CDN,25.71,-80.15,16,Operational,31,-120
+University of Miami,WERA,Broad Key,BDK,25.35,-80.25,16,Permitting,,
+University of South Florida,CODAR,Redington Shores,RDSR,27.83,-82.83,5,Operational,-70,-120
+University of South Florida,CODAR,Venice,VENI,27.08,-82.45,5,Operational,-100,-120
+University of South Florida,CODAR,Naples,NAPL,26.16,-81.81,5,Operational,-120,-120
+University of South Florida,CODAR,Fort deSoto,FDS,27.58,-82.73,5,Permitting,,
+University of North Carolina - Chapel Hill,CODAR,Core Banks,CORE,34.76,-76.41,5,Operational,50,-120
+Florida Institute of Technology,WERA,Port Canaveral,PCL,28.5,-80.53,8.3,Planned,,
+Florida Institute of Technology,WERA,Melbourne,MEL,28.12,-80.63,8.3,Planned,,
+University of Miami,WERA,"Hobe Sound, FL",HOBE,27.08,-80.14,8.3,Planned,,
+University of Miami,WERA,Palm Beach,PALM,26.65,-80.02,8.3,Planned,,
+Florida Atlantic University,CODAR,"Haulover Beach, FL",HAUL,25.91,-80.1,13.4,Construction,,
+Florida Atlantic University,CODAR,"Hillsboroug River, FL",HILL,26.26,-80.08,13.4,Construction,,
