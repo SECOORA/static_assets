@@ -26,10 +26,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-97.07413032378336482</xmin>
-      <ymin>24.55648294384558739</ymin>
-      <xmax>-84.80018016644739021</xmax>
-      <ymax>37.85326228095954804</ymax>
+      <xmin>-85.70789712753904155</xmin>
+      <ymin>24.04243219627674932</ymin>
+      <xmax>-73.43394697020306694</xmax>
+      <ymax>37.33921153339071708</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -242,7 +242,7 @@
   <projectlayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>ESRI_World_Ocean_Base20160622135834026</id>
-      <datasource>/home/kwilcox/Downloads/ESRI_World_Ocean_Base.xml</datasource>
+      <datasource>./ESRI_World_Ocean_Base.xml</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -283,7 +283,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>SECOORA_HFRadar20160623095824840</id>
-      <datasource>file:./static/hfradar/ioos_2016_descope.csv?type=csv&amp;xField=Longitude&amp;yField=Latitude&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:./hfradar/ioos_2016_descope.csv?type=csv&amp;xField=Longitude&amp;yField=Latitude&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -667,7 +667,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>bathy20160622135855596</id>
-      <datasource>./static/bathy/bathy.geojson</datasource>
+      <datasource>./bathy/bathy.geojson</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1042,7 +1042,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>gliders_from_georefd20160622123039138</id>
-      <datasource>./static/glider_tracks/gliders_from_georefd.geojson</datasource>
+      <datasource>./glider_tracks/gliders_from_georefd.geojson</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1372,7 +1372,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>hfradar20160622150808451</id>
-      <datasource>./static/hfradar/hfradar.shp</datasource>
+      <datasource>./hfradar/hfradar.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1398,25 +1398,19 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="status">
+        <edittype widgetv2type="TextEdit" name="popupconte">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="latitude">
+        <edittype widgetv2type="TextEdit" name="mhz">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="longitude">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="spreadangl">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="type">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="displaytit">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="startangle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="range">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="icon">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="responsibl">
@@ -1425,19 +1419,25 @@ def my_form_open(dialog, layer, feature):
         <edittype widgetv2type="TextEdit" name="status_col">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="popupconte">
+        <edittype widgetv2type="TextEdit" name="icon">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="range">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="displaytit">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="startangle">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="abrreviate">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="longitude">
+        <edittype widgetv2type="TextEdit" name="latitude">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="mhz">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="spreadangl">
+        <edittype widgetv2type="TextEdit" name="status">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1670,7 +1670,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>ioos_2016_descope20160623095357504</id>
-      <datasource>file:./static/stations/ioos_2016_descope.csv?type=csv&amp;xField=Longitude&amp;yField=Latitude&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>file:./stations/ioos_2016_descope.csv?type=csv&amp;xField=Longitude&amp;yField=Latitude&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <keywordList>
         <value></value>
       </keywordList>
