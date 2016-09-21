@@ -7,7 +7,7 @@
 #  - geojson
 #  - pandas
 # channels:
-#  - ioos
+#  - conda-forge
 # run_with: python
 
 """

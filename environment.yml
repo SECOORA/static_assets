@@ -1,8 +1,8 @@
 name: assets_map
 channels:
-    - ioos
+    - conda-forge
 dependencies:
-    - python=2.7
+    - python=3.5
     - fiona
     - folium
     - geojson

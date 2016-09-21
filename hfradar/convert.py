@@ -8,7 +8,7 @@
 #  - pandas
 #  - pygc
 # channels:
-#  - ioos
+#  - conda-forge
 # run_with: python
 
 """
