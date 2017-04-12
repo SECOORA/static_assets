@@ -3,21 +3,45 @@
     {
       "geometry": {
         "coordinates": [
-          -77.71,
-          34.13
+          -77.7183,
+          34.1445
         ],
         "type": "Point"
       },
       "properties": {
         "displaytitle": "ILM2",
         "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/buoy-green.png",
-        "latitude": 34.13,
-        "locationdescription": "ILM2",
-        "longitude": -77.71,
+        "latitude": 34.1445,
+        "locationdescription": "ILM2 Met buoy",
+        "longitude": -77.7183,
         "name": "Onslow Bay 18M",
         "platform_icon": "buoy",
         "platformtype": "Fixed Surface Buoy",
-        "popupcontent": "ILM2",
+        "popupcontent": "ILM2 Met buoy",
+        "responsibleparty": "UNC-Wilmington",
+        "status": "Operational",
+        "status_color": "green"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -77.71,
+          34.15
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "displaytitle": "ILM2Wave",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/buoy-green.png",
+        "latitude": 34.15,
+        "locationdescription": "ILM2 Wave co-located with ILM2 Met",
+        "longitude": -77.71,
+        "name": "Onslow Bay Waverider",
+        "platform_icon": "buoy",
+        "platformtype": "Fixed Surface Buoy",
+        "popupcontent": "ILM2 Wave co-located with ILM2 Met",
         "responsibleparty": "UNC-Wilmington",
         "status": "Operational",
         "status_color": "green"
@@ -60,12 +84,36 @@
         "displaytitle": "SUN2",
         "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/buoy-green.png",
         "latitude": 33.848,
-        "locationdescription": "Nearshore Sunset, NC",
+        "locationdescription": "SUN2 Met buoy",
         "longitude": -78.48899999999999,
-        "name": "Sunset Beach Bouy 2",
+        "name": "Sunset Beach Bouy",
         "platform_icon": "buoy",
         "platformtype": "Fixed Surface Buoy",
-        "popupcontent": "Nearshore Sunset, NC",
+        "popupcontent": "SUN2 Met buoy",
+        "responsibleparty": "UNC-Wilmington",
+        "status": "Operational",
+        "status_color": "green"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -78.476,
+          33.836999999999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "displaytitle": "SUN2Wave",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/buoy-green.png",
+        "latitude": 33.836999999999996,
+        "locationdescription": "SUN2 Wave co-located with SUN2 Met",
+        "longitude": -78.476,
+        "name": "Sunset Beach Wave Buoy",
+        "platform_icon": "buoy",
+        "platformtype": "Fixed Surface Buoy",
+        "popupcontent": "SUN2 Wave co-located with SUN2 Met",
         "responsibleparty": "UNC-Wilmington",
         "status": "Operational",
         "status_color": "green"
@@ -147,96 +195,48 @@
     {
       "geometry": {
         "coordinates": [
+          -76.9488,
+          34.2073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "displaytitle": "LEJ3Wave",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/buoy-green.png",
+        "latitude": 34.2073,
+        "locationdescription": "LEJ3 Wave co-located with LEJ3 Met",
+        "longitude": -76.9488,
+        "name": "Lejune 3 Wave Buoy",
+        "platform_icon": "buoy",
+        "platformtype": "Fixed Surface Buoy",
+        "popupcontent": "LEJ3 Wave co-located with LEJ3 Met",
+        "responsibleparty": "UNC-Wilmington",
+        "status": "Operational",
+        "status_color": "green"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -77.3,
           33.9
         ],
         "type": "Point"
       },
       "properties": {
-        "displaytitle": "OBL2",
-        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/tri-orange.png",
+        "displaytitle": "OB27",
+        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/tri-green.png",
         "latitude": 33.9,
-        "locationdescription": "OB27B30M",
+        "locationdescription": "OB27M Bottom Frame",
         "longitude": -77.3,
-        "name": "Onslow Bay 27B",
+        "name": "Onslow Bay 27M",
         "platform_icon": "tri",
         "platformtype": "Fixed Bottom Mount Mooring",
-        "popupcontent": "OB27B30M",
+        "popupcontent": "OB27M Bottom Frame",
         "responsibleparty": "UNC-Wilmington",
-        "status": "Planned",
-        "status_color": "orange"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -77.36,
-          34.11
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "displaytitle": "LED2",
-        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/tri-orange.png",
-        "latitude": 34.11,
-        "locationdescription": "OB200-200Ledge",
-        "longitude": -77.36,
-        "name": "Onslow Bay 200-200 Ledge",
-        "platform_icon": "tri",
-        "platformtype": "Fixed Bottom Mount Mooring",
-        "popupcontent": "OB200-200Ledge",
-        "responsibleparty": "UNC-Wilmington",
-        "status": "Planned",
-        "status_color": "orange"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -77.76,
-          34.0
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "displaytitle": "CBL2",
-        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/tri-orange.png",
-        "latitude": 34.0,
-        "locationdescription": "CBLedge",
-        "longitude": -77.76,
-        "name": "Carolina Beach Ledge",
-        "platform_icon": "tri",
-        "platformtype": "Fixed Bottom Mount Mooring",
-        "popupcontent": "CBLedge",
-        "responsibleparty": "UNC-Wilmington",
-        "status": "Planned",
-        "status_color": "orange"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -77.87,
-          33.96
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "displaytitle": "FFL2",
-        "icon": "https://raw.githubusercontent.com/secoora/static_assets/master/icons/tri-orange.png",
-        "latitude": 33.96,
-        "locationdescription": "FortFishLedge",
-        "longitude": -77.87,
-        "name": "Fort Fisher Ledge",
-        "platform_icon": "tri",
-        "platformtype": "Fixed Bottom Mount Mooring",
-        "popupcontent": "FortFishLedge",
-        "responsibleparty": "UNC-Wilmington",
-        "status": "Planned",
-        "status_color": "orange"
+        "status": "Operational",
+        "status_color": "green"
       },
       "type": "Feature"
     },
