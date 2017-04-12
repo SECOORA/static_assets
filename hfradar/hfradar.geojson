@@ -22,7 +22,8 @@
         "startangle": 5.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/0321aee4-87f7-11e5-8d0b-00265529168c/2c2a3d1e-8d88-42b7-b519-ca2e35a9700d"
       },
       "type": "Feature"
     },
@@ -264,7 +265,8 @@
         "startangle": 5.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/0321aee4-87f7-11e5-8d0b-00265529168c/2c2a3d1e-8d88-42b7-b519-ca2e35a9700d"
       },
       "type": "Feature"
     },
@@ -290,7 +292,8 @@
         "startangle": 60.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/0321aee4-87f7-11e5-8d0b-00265529168c/2c2a3d1e-8d88-42b7-b519-ca2e35a9700d"
       },
       "type": "Feature"
     },
@@ -532,7 +535,8 @@
         "startangle": 60.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/0321aee4-87f7-11e5-8d0b-00265529168c/2c2a3d1e-8d88-42b7-b519-ca2e35a9700d"
       },
       "type": "Feature"
     },
@@ -558,7 +562,8 @@
         "startangle": 20.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/e2338450-5817-416a-9d1c-80c24c297b60/d2f4fa47-a00e-4e6f-8d5c-dfcb8c79aa5b"
       },
       "type": "Feature"
     },
@@ -800,7 +805,8 @@
         "startangle": 20.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/e2338450-5817-416a-9d1c-80c24c297b60/d2f4fa47-a00e-4e6f-8d5c-dfcb8c79aa5b"
       },
       "type": "Feature"
     },
@@ -826,7 +832,8 @@
         "startangle": -15.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/e2338450-5817-416a-9d1c-80c24c297b60/d2f4fa47-a00e-4e6f-8d5c-dfcb8c79aa5b"
       },
       "type": "Feature"
     },
@@ -1068,7 +1075,8 @@
         "startangle": -15.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/e2338450-5817-416a-9d1c-80c24c297b60/d2f4fa47-a00e-4e6f-8d5c-dfcb8c79aa5b"
       },
       "type": "Feature"
     },
@@ -1094,7 +1102,8 @@
         "startangle": 20.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/1e5676a9-d934-4562-a6db-024ed87beb42/f668b5ae-5a9a-4d09-a785-7b9300be59ac"
       },
       "type": "Feature"
     },
@@ -1336,7 +1345,8 @@
         "startangle": 20.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/1e5676a9-d934-4562-a6db-024ed87beb42/f668b5ae-5a9a-4d09-a785-7b9300be59ac"
       },
       "type": "Feature"
     },
@@ -1362,7 +1372,8 @@
         "startangle": 55.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/1e5676a9-d934-4562-a6db-024ed87beb42/f668b5ae-5a9a-4d09-a785-7b9300be59ac"
       },
       "type": "Feature"
     },
@@ -1604,7 +1615,8 @@
         "startangle": 55.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/1e5676a9-d934-4562-a6db-024ed87beb42/f668b5ae-5a9a-4d09-a785-7b9300be59ac"
       },
       "type": "Feature"
     },
@@ -1630,7 +1642,8 @@
         "startangle": 55.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/956ba53c-8722-11e5-82bf-00265529168c/9765fa5a-19df-4997-908b-28b39bf7f847"
       },
       "type": "Feature"
     },
@@ -1872,7 +1885,8 @@
         "startangle": 55.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/956ba53c-8722-11e5-82bf-00265529168c/9765fa5a-19df-4997-908b-28b39bf7f847"
       },
       "type": "Feature"
     },
@@ -1898,7 +1912,8 @@
         "startangle": 68.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/956ba53c-8722-11e5-82bf-00265529168c/9765fa5a-19df-4997-908b-28b39bf7f847"
       },
       "type": "Feature"
     },
@@ -2140,7 +2155,8 @@
         "startangle": 68.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/956ba53c-8722-11e5-82bf-00265529168c/9765fa5a-19df-4997-908b-28b39bf7f847"
       },
       "type": "Feature"
     },
@@ -2166,7 +2182,8 @@
         "startangle": 31.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/956ba53c-8722-11e5-82bf-00265529168c/9765fa5a-19df-4997-908b-28b39bf7f847"
       },
       "type": "Feature"
     },
@@ -2408,7 +2425,8 @@
         "startangle": 31.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "WERA"
+        "type": "WERA",
+        "url": "http://portal.secoora.org/#module-metadata/956ba53c-8722-11e5-82bf-00265529168c/9765fa5a-19df-4997-908b-28b39bf7f847"
       },
       "type": "Feature"
     },
@@ -2434,7 +2452,8 @@
         "startangle": 0,
         "status": "Permitting",
         "status_color": "yellow",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -2460,7 +2479,8 @@
         "startangle": 0,
         "status": "Permitting",
         "status_color": "yellow",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -2486,7 +2506,8 @@
         "startangle": -70.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/e314315a-80ab-4b88-b3ed-3a2941d654ee/275201d9-bfc6-45d6-8a86-f3a3439b4120"
       },
       "type": "Feature"
     },
@@ -2728,7 +2749,8 @@
         "startangle": -70.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/e314315a-80ab-4b88-b3ed-3a2941d654ee/275201d9-bfc6-45d6-8a86-f3a3439b4120"
       },
       "type": "Feature"
     },
@@ -2754,7 +2776,8 @@
         "startangle": -100.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/e314315a-80ab-4b88-b3ed-3a2941d654ee/275201d9-bfc6-45d6-8a86-f3a3439b4120"
       },
       "type": "Feature"
     },
@@ -2996,7 +3019,8 @@
         "startangle": -100.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/e314315a-80ab-4b88-b3ed-3a2941d654ee/275201d9-bfc6-45d6-8a86-f3a3439b4120"
       },
       "type": "Feature"
     },
@@ -3022,7 +3046,8 @@
         "startangle": -120.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/e314315a-80ab-4b88-b3ed-3a2941d654ee/275201d9-bfc6-45d6-8a86-f3a3439b4120"
       },
       "type": "Feature"
     },
@@ -3264,7 +3289,8 @@
         "startangle": -120.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/e314315a-80ab-4b88-b3ed-3a2941d654ee/275201d9-bfc6-45d6-8a86-f3a3439b4120"
       },
       "type": "Feature"
     },
@@ -3290,7 +3316,8 @@
         "startangle": 0,
         "status": "Permitting",
         "status_color": "yellow",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3316,7 +3343,8 @@
         "startangle": 0,
         "status": "Permitting",
         "status_color": "yellow",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3342,7 +3370,8 @@
         "startangle": 50.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/0321aee4-87f7-11e5-8d0b-00265529168c/2c2a3d1e-8d88-42b7-b519-ca2e35a9700d"
       },
       "type": "Feature"
     },
@@ -3584,7 +3613,8 @@
         "startangle": 50.0,
         "status": "Operational",
         "status_color": "green",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": "http://portal.secoora.org/#module-metadata/0321aee4-87f7-11e5-8d0b-00265529168c/2c2a3d1e-8d88-42b7-b519-ca2e35a9700d"
       },
       "type": "Feature"
     },
@@ -3610,7 +3640,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3636,7 +3667,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3662,7 +3694,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3688,7 +3721,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3714,7 +3748,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3740,7 +3775,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3766,7 +3802,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3792,7 +3829,8 @@
         "startangle": 0,
         "status": "Planned",
         "status_color": "orange",
-        "type": "WERA"
+        "type": "WERA",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3818,7 +3856,8 @@
         "startangle": 0,
         "status": "Construction",
         "status_color": "yellow",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3844,7 +3883,8 @@
         "startangle": 0,
         "status": "Construction",
         "status_color": "yellow",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3870,7 +3910,8 @@
         "startangle": 0,
         "status": "Construction",
         "status_color": "yellow",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": 0
       },
       "type": "Feature"
     },
@@ -3896,7 +3937,8 @@
         "startangle": 0,
         "status": "Construction",
         "status_color": "yellow",
-        "type": "CODAR"
+        "type": "CODAR",
+        "url": 0
       },
       "type": "Feature"
     }
