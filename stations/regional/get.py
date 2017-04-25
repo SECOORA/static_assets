@@ -45,14 +45,15 @@ def main():
 
 def filter_stations(df):
 
-    vars_to_ignore = [
+    sensor_ignores = [
         'tide_predictions',
         'stream_flow',
         'stream_height',
-        'gov.usgs.waterdata'
+        'gov.usgs.waterdata',
+        'gov.usgs.cmgds'
     ]
 
-    for v in vars_to_ignore:
+    for v in sensor_ignores:
         df = df[~df.sensor.str.contains(':{}'.format(v))]
     return df
 
