@@ -51,6 +51,7 @@ ranges = {
     5: 190,   # 225
     8: 160,   # 175
     12: 130,  # 124
+    13: 120,  # 134
     16: 100   # 100
 }
 
@@ -75,13 +76,13 @@ def wedge(distance, angle, theta, lat, lon, arc_points=None):
     starting = great_circle(distance=distance, azimuth=math_angle_to_azimuth(angle), latitude=lat, longitude=lon)
     pts.append([starting['longitude'], starting['latitude']])
 
-    ending = great_circle(distance=distance, azimuth=math_angle_to_azimuth(angle+theta), latitude=lat, longitude=lon)
+    ending = great_circle(distance=distance, azimuth=math_angle_to_azimuth(angle + theta), latitude=lat, longitude=lon)
 
     # Calculate N points along the circumference between the starting and ending
     alpha = theta / arc_points
     for j in range(int(arc_points)):
         beta = alpha * j
-        pt = great_circle(distance=distance, azimuth=math_angle_to_azimuth(angle+beta), latitude=lat, longitude=lon)
+        pt = great_circle(distance=distance, azimuth=math_angle_to_azimuth(angle + beta), latitude=lat, longitude=lon)
         pts.append([pt['longitude'], pt['latitude']])
 
     # Add the end point
@@ -191,6 +192,7 @@ def save_shapefile(df):
                     "geometry": geojson.Polygon([[[lon, lat]] * 4 ]),
                     "properties": { shape_name(k): v for (k, v) in x.iteritems() if shape_name(k) in schema['properties'] }
                 })
+
 
 if __name__ == "__main__":
     main()
