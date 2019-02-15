@@ -114,5 +114,6 @@ def save_shapefile(df):
                 "properties": { shape_name(k): v for (k, v) in s.iteritems() if shape_name(k) in schema['properties'] }
             })
 
+
 if __name__ == "__main__":
     main()

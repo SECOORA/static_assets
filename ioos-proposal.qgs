@@ -224,7 +224,7 @@
           <annotationFontProperties description="Sans,10,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.10446" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="304.8" outlineWidth="0.3" excludeFromExports="0" uuid="{c0cebc26-e23a-40cd-ad73-2584b85aa2e0}" height="330.2" itemRotation="0" frame="false" pagex="0">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="3.00931" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="304.8" outlineWidth="0.3" excludeFromExports="0" uuid="{c0cebc26-e23a-40cd-ad73-2584b85aa2e0}" height="330.2" itemRotation="0" frame="false" pagex="0">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
